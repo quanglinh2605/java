@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:ui="http://java.sun.com/jsf/facelets">
+
+<h:head>
+
+	<title>Register</title>
+
+</h:head>
+
+<h:body>
+	<h3>Register</h3>
+	<h:form>
+	<h:commandLink action="#{accountManagedBean.login()}" value="Login" />	
+	<br></br><br></br>
+	Name <h:inputText value="#{accountManagedBean.keyword}" />
+	<h:commandButton action="#{accountManagedBean.search()}" value="Search" />
+	<br></br><br></br>
+	<table>		
+		<tr>
+			<td>Username</td>
+			<td><h:inputText value="#{accountManagedBean.account.username}" /></td>
+		</tr>
+		<tr>
+			<td>Password</td>
+			<td><h:inputSecret value="#{accountManagedBean.account.password}"></h:inputSecret></td>
+		</tr>
+		<tr>
+			<td>Description</td>
+			<td><h:inputTextarea value="#{accountManagedBean.account.description}" rows="5" cols="20" /></td>
+		</tr>
+		<tr>
+			<td>Status</td>
+			<td>
+				<h:selectBooleanCheckbox value="#{accountManagedBean.account.status}" />	
+			</td>
+		</tr>
+		<tr>
+			<td>Languages</td>
+			<td>
+				<h:selectManyCheckbox value="#{accountManagedBean.account.languages}">
+					<f:selectItems var="lang" value="#{accountManagedBean.languages}" itemLabel="#{lang.name}" itemValue="#{lang.id}"/>
+				</h:selectManyCheckbox>
+			</td>
+		</tr>
+		<tr>
+			<td>Gender</td>
+			<td>
+				<h:selectOneRadio value="#{accountManagedBean.account.gender}">
+					<f:selectItem  itemLabel="Male" itemValue="m"/>
+					<f:selectItem  itemLabel="Female" itemValue="f"/>
+				</h:selectOneRadio>
+			</td>
+		</tr>
+		<tr>
+			<td>Role</td>
+			<td>
+				<h:selectOneMenu value="#{accountManagedBean.account.role}">
+				<f:selectItems var="r" value="#{accountManagedBean.roles}" itemLabel="#{r.name}" itemValue="#{r.id}"/>
+				</h:selectOneMenu>
+			</td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+			<td><h:commandButton action="#{accountManagedBean.save()}" value="Save" /></td>
+			<h:inputHidden value="#{accountManagedBean.account.id}" />
+		</tr>		
+	</table>	
+	</h:form>
+</h:body>
+	
+</html>

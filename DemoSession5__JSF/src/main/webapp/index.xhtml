@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:ui="http://java.sun.com/jsf/facelets">
+
+<h:head>
+
+	<title>Demo Page</title>
+	<h:outputStylesheet library="css" name="style.css"></h:outputStylesheet>
+	<h:outputScript library="js" name="mylib.js"></h:outputScript>
+</h:head>
+
+<h:body>
+	<h3>Hello</h3>
+	<h:graphicImage library="images" name="image1.jpg" width="120"
+		height="100" />
+	<h:graphicImage library="images" name="image2.jpg" onclick="clickMe()" />
+	<br />
+	<h:form>
+		<h:commandButton action="#{demoManagedBean.index2()}" value="link 1" />
+		<br></br>
+		<h:commandLink action="#{demoManagedBean.index2()}" value="link 2" />
+		<br></br>
+		<h:commandLink action="#{demoManagedBean.index3(123,'Diem')}"
+			value="link 3" />
+		<br></br>
+		<h:commandLink action="#{employeeManagedBean.register()}"
+			value="Register Employee" />
+		<br></br>
+		<h:commandLink action="#{studentManagedBean.index()}"
+			value="Student Management" />
+		<br></br>
+		<h:commandLink action="#{mobileManagedBean.index()}" value="Mobile Management" />
+		<br></br>
+		<h:commandLink action="#{ajaxManagedBean.index()}" value="Ajax" />
+		<br></br>
+		<h:commandLink action="#{pFManagedBean.index()}" value="PrimesFace" />
+	</h:form>
+</h:body>
+
+</html>

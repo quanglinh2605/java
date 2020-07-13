@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:p="http://primefaces.org/ui">
+
+<h:head>
+
+	<title>Edit</title>
+	
+</h:head>
+
+<h:body>
+	<h3>List Customer</h3>
+	<h:form>
+		<table>
+		<tr>
+			<td>Name: </td>
+			<td><h:inputText value="#{customerManagedBean.customer.name}" /></td>					
+		</tr>
+		<tr>
+			<td>Address: </td>
+			<td><h:inputText value="#{customerManagedBean.customer.address}" /></td>
+		</tr>
+		<tr>
+			<td>BirthDay: </td>
+			<td><p:datePicker id="Date" value="#{customerManagedBean.customer.birthday}" pattern="dd/MM/yyyy" showIcon="true"></p:datePicker></td>
+		</tr>
+		<tr>
+			<td>Phone: </td>
+			<td><h:inputText value="#{customerManagedBean.customer.phone}" /></td>
+		</tr>
+		<tr>
+			<td>&nbsp;
+			</td>
+			<td>
+				<h:inputHidden value="#{customerManagedBean.customer.id}" />
+				<h:commandButton action="#{customerManagedBean.update()}" value="Save" />
+			</td>
+		</tr>
+		</table>					
+	</h:form>
+</h:body>
+</html>

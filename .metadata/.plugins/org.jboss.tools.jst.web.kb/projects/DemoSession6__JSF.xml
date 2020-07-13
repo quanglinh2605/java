@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kb-project>
+ <depends-on-projects/>
+ <used-by-projects/>
+ <paths>
+  <path value="C:/eclipse/apache-tomcat-9.0.5/lib/catalina.jar"/>
+  <path value="C:/Users/QuangLinh/.m2/repository/org/javassist/javassist/3.24.0-GA/javassist-3.24.0-GA.jar"/>
+  <path value="C:/eclipse/apache-tomcat-9.0.5/lib/catalina-tribes.jar"/>
+  <path value="C:/Users/QuangLinh/.m2/repository/javax/validation/validation-api/2.0.1.Final/validation-api-2.0.1.Final.jar"/>
+  <path value="C:/Users/QuangLinh/.m2/repository/com/sun/istack/istack-commons-runtime/3.0.7/istack-commons-runtime-3.0.7.jar"/>
+  <path value="C:/Users/QuangLinh/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/jaxb-runtime-2.3.1.jar"/>
+  <path value="C:/Users/QuangLinh/.m2/repository/org/jboss/spec/javax/transaction/jboss-transaction-api_1.2_spec/1.1.1.Final/jboss-transaction-api_1.2_spec-1.1.1.Final.jar"/>
+  <path value="C:/Users/QuangLinh/.m2/repository/com/sun/el/el-ri/1.0/el-ri-1.0.jar"/>
+  <path value="C:/eclipse/apache-tomcat-9.0.5/lib/tomcat-jdbc.jar"/>
+  <path value="C:/Users/QuangLinh/.m2/repository/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar"/>
+  <path value="C:/eclipse/apache-tomcat-9.0.5/lib/tomcat-dbcp.jar"/>
+  <path value="C:/Users/QuangLinh/.m2/repository/org/hibernate/validator/hibernate-validator/6.0.13.Final/hibernate-validator-6.0.13.Final.jar"/>
+  <path value="C:/Users/QuangLinh/.m2/repository/org/hibernate/hibernate-core/5.4.9.Final/hibernate-core-5.4.9.Final.jar"/>
+  <path value="C:/eclipse/apache-tomcat-9.0.5/lib/catalina-ant.jar"/>
+  <path value="C:/eclipse/apache-tomcat-9.0.5/lib/jasper-el.jar"/>
+  <path value="C:/Users/QuangLinh/.m2/repository/org/jvnet/staxex/stax-ex/1.8/stax-ex-1.8.jar"/>
+  <path value="C:/eclipse/apache-tomcat-9.0.5/lib/tomcat-api.jar"/>
+  <path value="C:/Users/QuangLinh/.m2/repository/javax/servlet/jstl/1.2/jstl-1.2.jar">
+   <libraries>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/c-1_0-rt.tld" project="DemoSession6__JSF"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/c-1_0.tld" project="DemoSession6__JSF"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/c.tld" project="DemoSession6__JSF"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/fmt-1_0-rt.tld" project="DemoSession6__JSF"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/fmt-1_0.tld" project="DemoSession6__JSF"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/fmt.tld" project="DemoSession6__JSF"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/fn.tld" project="DemoSession6__JSF"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/permittedtaglibs.tld" project="DemoSession6__JSF"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/scriptfree.tld" project="DemoSession6__JSF"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/sql-1_0-rt.tld" project="DemoSession6__JSF"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/sql-1_0.tld" project="DemoSession6__JSF"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/sql.tld" project="DemoSession6__JSF"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/x-1_0-rt.tld" project="DemoSession6__JSF"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/x-1_0.tld" project="DemoSession6__JSF"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/x.tld" project="DemoSession6__JSF"/>
+    </library>
+   </libraries>
+  </path>
+  <path value="C:/eclipse/apache-tomcat-9.0.5/lib/catalina-ha.jar"/>
+  <path value="C:/eclipse/apache-tomcat-9.0.5/lib/jasper.jar"/>
+  <path value="C:/Users/QuangLinh/.m2/repository/javax/persistence/javax.persistence-api/2.2/javax.persistence-api-2.2.jar"/>
+  <path value="C:/Users/QuangLinh/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar"/>
+  <path value="C:/eclipse/apache-tomcat-9.0.5/lib/tomcat-i18n-es.jar"/>
+  <path value="C:/eclipse/apache-tomcat-9.0.5/lib/tomcat-util.jar"/>
+  <path value="C:/eclipse/apache-tomcat-9.0.5/lib/ecj-4.6.3.jar"/>
+  <path value="C:/Users/QuangLinh/.m2/repository/net/bytebuddy/byte-buddy/1.10.2/byte-buddy-1.10.2.jar"/>
+  <path value="C:/Users/QuangLinh/.m2/repository/org/dom4j/dom4j/2.1.1/dom4j-2.1.1.jar"/>
+  <path value="C:/eclipse/apache-tomcat-9.0.5/lib/tomcat-i18n-fr.jar"/>
+  <path value="C:/Users/QuangLinh/.m2/repository/com/sun/xml/fastinfoset/FastInfoset/1.2.15/FastInfoset-1.2.15.jar"/>
+  <path value="C:/eclipse/apache-tomcat-9.0.5/lib/annotations-api.jar"/>
+  <path value="C:/Users/QuangLinh/.m2/repository/com/fasterxml/classmate/1.5.1/classmate-1.5.1.jar"/>
+  <path value="C:/eclipse/apache-tomcat-9.0.5/lib/catalina-storeconfig.jar"/>
+  <path value="C:/Users/QuangLinh/.m2/repository/org/primefaces/primefaces/7.0/primefaces-7.0.jar">
+   <libraries>
+    <library class="faces-config">
+     <id class="model-object"
+      path="FileSystems/lib-primefaces-7.0.jar/meta-inf/faces-config.xml" project="DemoSession6__JSF"/>
+    </library>
+    <library class="facelet">
+     <id class="model-object"
+      path="FileSystems/lib-primefaces-7.0.jar/meta-inf/primefaces-p.taglib.xml" project="DemoSession6__JSF"/>
+    </library>
+   </libraries>
+  </path>
+  <path value="C:/eclipse/apache-tomcat-9.0.5/lib/tomcat-coyote.jar"/>
+  <path value="C:/eclipse/apache-tomcat-9.0.5/lib/tomcat-websocket.jar"/>
+  <path value="C:/Users/QuangLinh/.m2/repository/javax/servlet/jsp/jsp-api/2.1/jsp-api-2.1.jar"/>
+  <path value="C:/Users/QuangLinh/.m2/repository/com/sun/faces/jsf-api/2.2.8/jsf-api-2.2.8.jar"/>
+  <path value="C:/Users/QuangLinh/.m2/repository/com/google/protobuf/protobuf-java/3.6.1/protobuf-java-3.6.1.jar"/>
+  <path value="C:/Users/QuangLinh/.m2/repository/org/hibernate/common/hibernate-commons-annotations/5.1.0.Final/hibernate-commons-annotations-5.1.0.Final.jar"/>
+  <path value="C:/eclipse/apache-tomcat-9.0.5/lib/jaspic-api.jar"/>
+  <path value="C:/eclipse/apache-tomcat-9.0.5/lib/tomcat-jni.jar"/>
+  <path value="C:/eclipse/apache-tomcat-9.0.5/lib/tomcat-util-scan.jar"/>
+  <path value="C:/Users/QuangLinh/.m2/repository/org/mindrot/jbcrypt/0.4/jbcrypt-0.4.jar"/>
+  <path value="C:/eclipse/apache-tomcat-9.0.5/lib/el-api.jar"/>
+  <path value="C:/eclipse/apache-tomcat-9.0.5/lib/jsp-api.jar"/>
+  <path value="C:/eclipse/apache-tomcat-9.0.5/lib/websocket-api.jar"/>
+  <path value="C:/Users/QuangLinh/.m2/repository/mysql/mysql-connector-java/8.0.13/mysql-connector-java-8.0.13.jar"/>
+  <path value="C:/Users/QuangLinh/.m2/repository/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.2.Final/hibernate-jpa-2.1-api-1.0.2.Final.jar"/>
+  <path value="C:/Users/QuangLinh/.m2/repository/antlr/antlr/2.7.7/antlr-2.7.7.jar"/>
+  <path value="C:/Users/QuangLinh/.m2/repository/org/jboss/logging/jboss-logging/3.3.2.Final/jboss-logging-3.3.2.Final.jar"/>
+  <path value="C:/Users/QuangLinh/.m2/repository/org/glassfish/jaxb/txw2/2.3.1/txw2-2.3.1.jar"/>
+  <path value="C:/Users/QuangLinh/.m2/repository/javax/xml/bind/jaxb-api/2.3.1/jaxb-api-2.3.1.jar"/>
+  <path value="C:/Users/QuangLinh/.m2/repository/javax/activation/javax.activation-api/1.2.0/javax.activation-api-1.2.0.jar"/>
+  <path value="C:/eclipse/apache-tomcat-9.0.5/lib/tomcat-i18n-ja.jar"/>
+  <path value="C:/Users/QuangLinh/.m2/repository/com/sun/faces/jsf-impl/2.2.17/jsf-impl-2.2.17.jar">
+   <libraries>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jsf-impl-2.2.17.jar/meta-inf/html_basic.tld" project="DemoSession6__JSF"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jsf-impl-2.2.17.jar/meta-inf/jsf_core.tld" project="DemoSession6__JSF"/>
+    </library>
+    <library class="facelet">
+     <id class="model-object"
+      path="FileSystems/lib-jsf-impl-2.2.17.jar/meta-inf/mojarra_ext.taglib.xml" project="DemoSession6__JSF"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jsf-impl-2.2.17.jar/meta-inf/mojarra_ext.tld" project="DemoSession6__JSF"/>
+    </library>
+    <library class="facelet">
+     <id class="model-object"
+      path="FileSystems/lib-jsf-impl-2.2.17.jar/com/sun/faces/metadata/taglib/composite.taglib.xml" project="DemoSession6__JSF"/>
+    </library>
+    <library class="facelet">
+     <id class="model-object"
+      path="FileSystems/lib-jsf-impl-2.2.17.jar/com/sun/faces/metadata/taglib/facelets_jsf_core.taglib.xml" project="DemoSession6__JSF"/>
+    </library>
+    <library class="facelet">
+     <id class="model-object"
+      path="FileSystems/lib-jsf-impl-2.2.17.jar/com/sun/faces/metadata/taglib/html_basic.taglib.xml" project="DemoSession6__JSF"/>
+    </library>
+    <library class="facelet">
+     <id class="model-object"
+      path="FileSystems/lib-jsf-impl-2.2.17.jar/com/sun/faces/metadata/taglib/jstl-core.taglib.xml" project="DemoSession6__JSF"/>
+    </library>
+    <library class="facelet">
+     <id class="model-object"
+      path="FileSystems/lib-jsf-impl-2.2.17.jar/com/sun/faces/metadata/taglib/jstl-fn.taglib.xml" project="DemoSession6__JSF"/>
+    </library>
+    <library class="facelet">
+     <id class="model-object"
+      path="FileSystems/lib-jsf-impl-2.2.17.jar/com/sun/faces/metadata/taglib/mojarra_ext.taglib.xml" project="DemoSession6__JSF"/>
+    </library>
+    <library class="facelet">
+     <id class="model-object"
+      path="FileSystems/lib-jsf-impl-2.2.17.jar/com/sun/faces/metadata/taglib/ui.taglib.xml" project="DemoSession6__JSF"/>
+    </library>
+   </libraries>
+  </path>
+  <path value="C:/eclipse/apache-tomcat-9.0.5/lib/servlet-api.jar"/>
+  <path value="C:/Users/QuangLinh/.m2/repository/org/jboss/jandex/2.1.1.Final/jandex-2.1.1.Final.jar"/>
+  <path value="C:/Users/QuangLinh/.m2/repository/org/hibernate/hibernate-entitymanager/5.4.0.CR1/hibernate-entitymanager-5.4.0.CR1.jar"/>
+ </paths>
+ <validation>
+  <core validator-id="jsf-verification"/>
+  <core validator-id="jboss.jsf.core"/>
+  <el>
+   <linked-el length="41" name="%0" offset="651" path="%1"/>
+   <linked-el length="52" name="%0" offset="1223" path="%2"/>
+   <linked-el length="43" name="%0" offset="995" path="%3"/>
+   <linked-el length="31" name="%0" offset="1411" path="%1"/>
+   <linked-el length="28" name="%0" offset="675" path="%2"/>
+   <linked-el length="50" name="%0" offset="1095" path="%3"/>
+   <linked-el length="35" name="%0" offset="832" path="%1"/>
+   <linked-el length="33" name="%0" offset="540" path="%1"/>
+   <linked-el length="36" name="%0" offset="956" path="%1"/>
+   <linked-el length="60" name="%0" offset="1052" path="%2"/>
+   <linked-el length="39" name="%0" offset="1332" path="%1"/>
+   <linked-el length="43" name="%4" offset="791" path="%5"/>
+   <linked-el length="10" name="%4" offset="736" path="%3"/>
+   <linked-el length="13" name="%4" offset="944" path="%3"/>
+   <linked-el length="37" name="%4" offset="1082" path="%5"/>
+   <linked-el length="15" name="%4" offset="790" path="%3"/>
+   <linked-el length="40" name="%4" offset="957" path="%5"/>
+   <linked-el length="43" name="%4" offset="995" path="%3"/>
+   <linked-el length="39" name="%4" offset="543" path="%5"/>
+   <linked-el length="12" name="%4" offset="762" path="%3"/>
+   <linked-el length="19" name="%4" offset="841" path="%3"/>
+   <linked-el length="50" name="%4" offset="1095" path="%3"/>
+   <linked-el length="42" name="%4" offset="662" path="%5"/>
+   <linked-el length="41" name="%6" offset="651" path="%1"/>
+   <linked-el length="30" name="%6" offset="910" path="%2"/>
+   <linked-el length="52" name="%6" offset="1223" path="%2"/>
+   <linked-el length="43" name="%6" offset="995" path="%3"/>
+   <linked-el length="31" name="%6" offset="1411" path="%1"/>
+   <linked-el length="28" name="%6" offset="675" path="%2"/>
+   <linked-el length="50" name="%6" offset="1095" path="%3"/>
+   <linked-el length="35" name="%6" offset="832" path="%1"/>
+   <linked-el length="23" name="%6" offset="799" path="%2"/>
+   <linked-el length="33" name="%6" offset="540" path="%1"/>
+   <linked-el length="36" name="%6" offset="956" path="%1"/>
+   <linked-el length="16" name="%6" offset="956" path="%2"/>
+   <linked-el length="18" name="%6" offset="988" path="%2"/>
+   <linked-el length="60" name="%6" offset="1052" path="%2"/>
+   <linked-el length="39" name="%6" offset="1332" path="%1"/>
+   <linked-el length="10" name="%6" offset="725" path="%2"/>
+   <linked-el length="12" name="%6" offset="751" path="%2"/>
+   <linked-el length="43" name="%7" offset="791" path="%5"/>
+   <linked-el length="10" name="%7" offset="736" path="%3"/>
+   <linked-el length="37" name="%7" offset="1082" path="%5"/>
+   <linked-el length="40" name="%7" offset="957" path="%5"/>
+   <linked-el length="43" name="%7" offset="995" path="%3"/>
+   <linked-el length="32" name="%7" offset="682" path="%3"/>
+   <linked-el length="19" name="%7" offset="841" path="%3"/>
+   <linked-el length="50" name="%7" offset="1095" path="%3"/>
+   <linked-el length="42" name="%7" offset="662" path="%5"/>
+   <linked-el length="13" name="%7" offset="944" path="%3"/>
+   <linked-el length="36" name="%7" offset="1200" path="%3"/>
+   <linked-el length="15" name="%7" offset="790" path="%3"/>
+   <linked-el length="39" name="%7" offset="543" path="%5"/>
+   <linked-el length="34" name="%7" offset="1151" path="%5"/>
+   <linked-el length="12" name="%7" offset="762" path="%3"/>
+   <linked-el length="43" name="%8" offset="791" path="%5"/>
+   <linked-el length="37" name="%8" offset="1082" path="%5"/>
+   <linked-el length="40" name="%8" offset="957" path="%5"/>
+   <linked-el length="32" name="%8" offset="682" path="%3"/>
+   <linked-el length="42" name="%8" offset="662" path="%5"/>
+   <linked-el length="36" name="%8" offset="1200" path="%3"/>
+   <linked-el length="39" name="%8" offset="543" path="%5"/>
+   <linked-el length="34" name="%8" offset="1151" path="%5"/>
+   <linked-el length="33" name="%9" offset="540" path="%1"/>
+   <linked-el length="36" name="%9" offset="956" path="%1"/>
+   <linked-el length="16" name="%9" offset="956" path="%2"/>
+   <linked-el length="18" name="%9" offset="988" path="%2"/>
+   <linked-el length="60" name="%9" offset="1052" path="%2"/>
+   <linked-el length="41" name="%9" offset="651" path="%1"/>
+   <linked-el length="30" name="%9" offset="910" path="%2"/>
+   <linked-el length="39" name="%9" offset="1332" path="%1"/>
+   <linked-el length="10" name="%9" offset="725" path="%2"/>
+   <linked-el length="35" name="%9" offset="832" path="%1"/>
+   <linked-el length="12" name="%9" offset="751" path="%2"/>
+   <linked-el length="23" name="%9" offset="799" path="%2"/>
+  </el>
+ </validation>
+ <aliases>
+  <alias path="/DemoSession6__JSF/src/main/webapp/customer/edit.xhtml" value="%5"/>
+  <alias
+   path="/DemoSession6__JSF/src/main/java/com/demo/managedbeans/OrderManagedBean.java" value="%0"/>
+  <alias
+   path="/DemoSession6__JSF/src/main/java/com/demo/entities/Customer.java" value="%4"/>
+  <alias path="/DemoSession6__JSF/src/main/webapp/index.xhtml" value="%3"/>
+  <alias path="orderManagedBean" value="%6"/>
+  <alias path="customerManagedBean" value="%7"/>
+  <alias path="/DemoSession6__JSF/src/main/webapp/orders/add.xhtml" value="%1"/>
+  <alias
+   path="/DemoSession6__JSF/src/main/java/com/demo/managedbeans/CustomerManagedBean.java" value="%8"/>
+  <alias
+   path="/DemoSession6__JSF/src/main/java/com/demo/entities/Order.java" value="%9"/>
+  <alias path="/DemoSession6__JSF/src/main/webapp/orders/index.xhtml" value="%2"/>
+ </aliases>
+ <includes/>
+ <uris>
+  <uri value="http://java.sun.com/jsf/core">
+   <prefix>f</prefix>
+  </uri>
+  <uri value="http://java.sun.com/jsf/html">
+   <prefix>h</prefix>
+  </uri>
+  <uri value="http://primefaces.org/ui">
+   <prefix>p</prefix>
+  </uri>
+ </uris>
+</kb-project>

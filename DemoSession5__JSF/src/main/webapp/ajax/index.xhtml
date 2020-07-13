@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:ui="http://java.sun.com/jsf/facelets">
+
+<h:head>
+
+	<title>Index</title>
+
+</h:head>
+
+<h:body>
+	<h3>Demo Ajax</h3>
+	<h:form prependId="false">
+		<fieldset>
+			<legend>Demo 1</legend>
+			<h:commandButton action="#{ajaxManagedBean.demo1()}" value="demo1">
+				<f:ajax render="result1"></f:ajax>
+			</h:commandButton>
+			<br></br>
+			<h:outputText value="#{ajaxManagedBean.result1}" id="result1" />
+		</fieldset>
+		
+		<fieldset>
+			<legend>Demo 2</legend>
+			<h:inputText id="fullname" value="#{ajaxManagedBean.fullname}" />
+			<h:commandButton action="#{ajaxManagedBean.demo2()}" value="Demo 2">
+				<f:ajax execute="fullname" render="result2"></f:ajax>
+			</h:commandButton>
+			<br></br>
+			<h:outputText value="#{ajaxManagedBean.result2}" id="result2" />
+		</fieldset>
+		
+		<fieldset>
+			<legend>Demo 3</legend>
+			<h:inputText id="a" value="#{ajaxManagedBean.a}" />
+			<h:commandButton action="#{ajaxManagedBean.chuvi()}" value="Chu vi">
+				<f:ajax execute="a" render="result3"></f:ajax>
+			</h:commandButton>
+			<h:commandButton action="#{ajaxManagedBean.dientich()}" value="Dien tich" >
+				<f:ajax execute="a" render="result3"></f:ajax>
+			</h:commandButton>
+			<br></br>
+			<h:outputText value="#{ajaxManagedBean.result3}" id="result3" />
+		</fieldset>
+		
+		<fieldset>
+			<legend>Demo 4</legend>
+			<h:inputText id="firstname" value="#{ajaxManagedBean.firstname}" />
+			<h:inputText id="lastname" value="#{ajaxManagedBean.lastname}" />
+			<br></br>
+			<h:commandButton action="#{ajaxManagedBean.demo4()}" value="Demo 4">
+				<f:ajax execute="@form" render="result4"></f:ajax>
+			</h:commandButton>
+			<br></br>
+			<h:outputText value="#{ajaxManagedBean.result4}" id="result4" />
+		</fieldset>
+
+		<fieldset>
+			<legend>Demo 5</legend>			
+			<h:commandButton action="#{ajaxManagedBean.demo5()}" value="Demo 5">
+				<f:ajax render="result5"></f:ajax>
+			</h:commandButton>
+			<br></br>
+			<h:panelGroup id="result5">
+				<br></br>
+				Username: <h:outputText value="#{ajaxManagedBean.employee.username}" />
+				<br></br>
+				Web: <h:outputText value="#{ajaxManagedBean.employee.website}" />
+				<br></br>
+				Email: <h:outputText value="#{ajaxManagedBean.employee.email}" />
+				<br></br>
+				Age: <h:outputText value="#{ajaxManagedBean.employee.age}" />
+			</h:panelGroup>
+		</fieldset>
+
+		<fieldset>
+			<legend>Demo 6</legend>		
+			<h:commandButton action="#{ajaxManagedBean.demo6()}" value="Demo 6">
+				<f:ajax render="result6"></f:ajax>
+			</h:commandButton>
+			<br></br>
+			<h:panelGroup id="result6">
+				<ui:repeat var="e" value="#{ajaxManagedBean.list}">
+				<br></br>
+				Username: <h:outputText value="#{e.username}" />
+				<br></br>
+				Web: <h:outputText value="#{e.website}" />
+				<br></br>
+				Email: <h:outputText value="#{e.email}" />
+				<br></br>
+				Age: <h:outputText value="#{e.age}" />
+				<br></br>
+				====================
+				</ui:repeat>
+			</h:panelGroup>
+		</fieldset>
+		
+		<fieldset>
+			<legend>Demo 7</legend>
+			<h:inputText id="chieudai" value="#{ajaxManagedBean.chieudai}" />
+			<h:inputText id="chieurong" value="#{ajaxManagedBean.chieurong}" />
+			<br></br>
+			<h:commandButton action="#{ajaxManagedBean.chuviHCN()}" value="Chu vi">
+				<f:ajax execute="@form" render="result7"></f:ajax>
+			</h:commandButton>
+			<h:commandButton action="#{ajaxManagedBean.dientichHCN()}" value="Dien tich">
+				<f:ajax execute="@form" render="result7"></f:ajax>
+			</h:commandButton>
+			<br></br>
+			<h:outputText value="#{ajaxManagedBean.kq}" id="result7" />
+		</fieldset>
+		
+		<fieldset>
+			<legend>Demo 8</legend>
+			<h:inputText id="minprice" value="#{ajaxManagedBean.minprice}" />
+			<h:inputText id="maxprice" value="#{ajaxManagedBean.maxprice}" />
+			<br></br>
+			<h:commandButton action="#{ajaxManagedBean.sum()}" value="Submit">
+				<f:ajax execute="@form" render="result8"></f:ajax>
+			</h:commandButton>			
+			<br></br>
+			<h:outputText value="#{ajaxManagedBean.kq}" id="result8" />
+		</fieldset>		
+	</h:form>
+</h:body>
+
+</html>

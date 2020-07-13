@@ -1,0 +1,7 @@
+127.0.0.1 - - [10/Apr/2020:21:37:09 +0700] "GET / HTTP/1.1" 404 1073
+0:0:0:0:0:0:0:1 - - [10/Apr/2020:21:37:15 +0700] "GET /DemoSession6__JSF/ HTTP/1.1" 404 1095
+0:0:0:0:0:0:0:1 - - [10/Apr/2020:21:37:24 +0700] "GET /favicon.ico HTTP/1.1" 404 1084
+127.0.0.1 - - [10/Apr/2020:21:40:09 +0700] "GET / HTTP/1.1" 404 1073
+0:0:0:0:0:0:0:1 - - [10/Apr/2020:21:40:33 +0700] "GET /DemoSession6__JSF/ HTTP/1.1" 200 5122
+0:0:0:0:0:0:0:1 - - [10/Apr/2020:21:40:34 +0700] "GET /DemoSession6__JSF/faces/javax.faces.resource/theme.css?ln=primefaces-aristo HTTP/1.1" 200 25264
+0:0:0:0:0:0:0:1 - - [10/Apr/2020:21:40:34 +0700] "GET /DemoSession6__JSF/faces/javax.faces.resource/jsf.js;jsessionid=AA557D3085FE58CF89FC79E7FEF8B2B5?ln=javax.faces&stage=Development HTTP/1.1" 200 152475

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:ui="http://java.sun.com/jsf/facelets">
+
+<h:head>
+
+	<title>Register</title>
+
+</h:head>
+
+<h:body>
+	<h3>Register</h3>
+	<h:form prependId="false">
+	<h:messages />
+		<table>
+			<tr>
+				<td>Username</td>
+				<td>
+					<h:inputText id="username"
+						value="#{employeeManagedBean.employee.username}" required="true">
+						<f:validateLength minimum="3" maximum="6"></f:validateLength>
+						<f:validator validatorId="usernameValidator"/>
+					</h:inputText>
+				</td>
+				<td><h:message for="username" /></td>
+			</tr>
+			<tr>
+				<td>Password</td>
+				<td>
+					<h:inputText id="password"
+						value="#{employeeManagedBean.employee.password}" required="true">
+						<f:validateRegex pattern="((?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[@#$%]).{6,20})" />
+					</h:inputText>
+				</td>
+				<td><h:message for="password" /></td>
+			</tr>
+			<tr>
+				<td>Email</td>
+				<td>
+					<h:inputText id="email"
+						value="#{employeeManagedBean.employee.email}" required="true">
+						<f:validateRegex pattern="\w+([-+.]\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*" />
+					</h:inputText>
+				</td>
+				<td><h:message for="email" /></td>
+			</tr>
+			<tr>
+				<td>Website</td>
+				<td>
+					<h:inputText id="website"
+						value="#{employeeManagedBean.employee.website}">
+						<f:validateRegex pattern="http(s)?://([\w-]+\.)+[\w-]+(/[\w- ./?%&amp;=]*)?" />
+					</h:inputText>
+				</td>
+				<td><h:message for="website" /></td>
+			</tr>
+			<tr>
+				<td>Age</td>
+				<td>
+					<h:inputText id="age"
+						value="#{employeeManagedBean.employee.age}">
+						<f:validateLongRange minimum="18" maximum="60"></f:validateLongRange>
+					</h:inputText>
+				</td>
+				<td><h:message for="age" /></td>
+			</tr>
+			<tr>
+				<td>&nbsp;</td>
+				<td><h:commandButton action="#{employeeManagedBean.save()}"
+						value="Save" /></td>
+			</tr>
+		</table>
+	</h:form>
+</h:body>
+
+</html>

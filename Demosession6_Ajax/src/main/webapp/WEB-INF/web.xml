@@ -1,0 +1,82 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+	<display-name>Archetype Created Web Application</display-name>
+	<servlet>
+		<servlet-name>Ajax1Servlet</servlet-name>
+		<display-name>Ajax1Servlet</display-name>
+		<description></description>
+		<servlet-class>servlet.Ajax1Servlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>Ajax2Servlet</servlet-name>
+		<display-name>Ajax2Servlet</display-name>
+		<description></description>
+		<servlet-class>servlet.Ajax2Servlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>Ajax3Servlet</servlet-name>
+		<display-name>Ajax3Servlet</display-name>
+		<description></description>
+		<servlet-class>servlet.Ajax3Servlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>Ajax4Servlet</servlet-name>
+		<display-name>Ajax4Servlet</display-name>
+		<description></description>
+		<servlet-class>servlet.Ajax4Servlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>Ajax5Servlet</servlet-name>
+		<display-name>Ajax5Servlet</display-name>
+		<description></description>
+		<servlet-class>servlet.Ajax5Servlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>ProductServlet</servlet-name>
+		<display-name>ProductServlet</display-name>
+		<description></description>
+		<servlet-class>servlet.ProductServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>Ajax6Servlet</servlet-name>
+		<display-name>Ajax6Servlet</display-name>
+		<description></description>
+		<servlet-class>servlet.Ajax6Servlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Ajax1Servlet</servlet-name>
+		<url-pattern>/Ajax1Servlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>Ajax2Servlet</servlet-name>
+		<url-pattern>/Ajax2Servlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>Ajax3Servlet</servlet-name>
+		<url-pattern>/Ajax3Servlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>Ajax4Servlet</servlet-name>
+		<url-pattern>/Ajax4Servlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>Ajax5Servlet</servlet-name>
+		<url-pattern>/Ajax5Servlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ProductServlet</servlet-name>
+		<url-pattern>/ProductServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>Ajax6Servlet</servlet-name>
+		<url-pattern>/Ajax6Servlet</url-pattern>
+	</servlet-mapping>
+	<welcome-file-list>
+		<welcome-file>
+			index.jsp
+		</welcome-file>
+	</welcome-file-list>
+</web-app>

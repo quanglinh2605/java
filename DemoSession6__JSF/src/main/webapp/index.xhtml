@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:p="http://primefaces.org/ui">
+
+<h:head>
+
+	<title>Index</title>
+
+</h:head>
+
+<h:body>
+	<h3>List Customer</h3>
+	<h:form>
+		<table border="1">
+			<tr>
+				<th>Customer ID</th>
+				<th>Name</th>
+				<th>Address</th>
+				<th>BirthDay</th>
+				<th>Phone</th>
+				<th>Options</th>
+			</tr>
+			<ui:repeat var="item" value="#{customerManagedBean.listCus}">
+				<tr>
+					<td>#{item.id}</td>
+					<td>#{item.name}</td>
+					<td>#{item.address}</td>
+					<td><h:outputText value="#{item.birthday}" >
+						<f:convertDateTime dateStyle="full"/>
+					</h:outputText></td>
+					<td>#{item.phone}</td>
+					<td><h:commandLink action="#{orderManagedBean.add(item.id)}"
+							value="Add New Order" /> | <h:commandLink
+							action="#{orderManagedBean.viewOrders(item.id)}"
+							value="View Orders" /> | <h:commandLink
+							action="#{customerManagedBean.edit(item)}" value="Change Profile" />
+					</td>
+				</tr>
+			</ui:repeat>
+		</table>
+	</h:form>
+</h:body>
+
+</html>

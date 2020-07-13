@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:ui="http://java.sun.com/jsf/facelets">
+
+<h:head>
+
+	<title>Cart</title>
+
+</h:head>
+
+<h:body>
+	<h3>Cart List</h3>
+	<h:form prependId="false">
+		<table border="1">
+			<tr>
+				<th>Action</th>
+				<th>Id</th>
+				<th>Name</th>
+				<th>Photo</th>
+				<th>Price</th>
+				<th>Quantity
+					<h:commandButton action="#{cartManagedBean.update()}" value="update" />
+				</th>
+				<th>Sub Total</th>
+			</tr>
+			<ui:repeat var="item" value="#{cartManagedBean.cart}" varStatus="i">
+				<tr>
+					<td align="center"><h:commandLink
+							action="#{cartManagedBean.remove(i.index)}" value="Remove" /></td>
+					<td>#{item.mobile.id}</td>
+					<td>#{item.mobile.name}</td>
+					<td><h:graphicImage library="images"
+							name="#{item.mobile.photo}" /></td>
+					<td>#{item.mobile.price}</td>
+					<td align="center"><input type="number" name="quantity"
+						value="#{item.quantity}" min="1" style="width: 50px;" /></td>
+					<td>#{item.quantity*item.mobile.price}</td>
+				</tr>
+			</ui:repeat>
+			<tr>
+				<td colspan="6" align="right">Total</td>
+				<td>#{cartManagedBean.total()}</td>
+			</tr>
+		</table>
+		<h:commandLink action="#{mobileManagedBean.index()}"
+			value="Continue Shopping" />
+	</h:form>
+</h:body>
+
+</html>

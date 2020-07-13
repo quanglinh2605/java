@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE tiles-definitions PUBLIC
+
+"-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+
+"http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+
+<tiles-definitions>
+	<definition name="mytemplate" template="/mytemplates/template.jsp">
+		<put-attribute name="content" value=""></put-attribute>
+	</definition>	
+	<definition name="admintemplate" template="/mytemplates/admin_template.jsp">
+		<put-attribute name="content" value=""></put-attribute>
+	</definition>
+	<definition name="loginemplate" template="/mytemplates/empty_template.jsp">
+		<put-attribute name="content" value=""></put-attribute>
+	</definition>
+</tiles-definitions>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:ui="http://java.sun.com/jsf/facelets">
+
+<h:head>
+
+	<title>Ajax Mobile</title>
+
+</h:head>
+
+<h:body>	
+	<h3>Ajax Mobile</h3>
+	<h:form prependId="false">
+		<fieldset>
+			<legend>Find Product Info</legend>
+			<h:inputText id="id" value="#{mobileManagedBean.id}" />
+			<h:commandButton action="#{mobileManagedBean.find()}" value="Find">
+				<f:ajax execute="id" render="find"></f:ajax>
+			</h:commandButton>|
+			<h:panelGroup id="find">
+			<br></br>
+				Id: <h:outputText value="#{mobileManagedBean.mobile.id}" /><br></br>
+				Name: <h:outputText value="#{mobileManagedBean.mobile.name}" /><br></br>
+				Price: <h:outputText value="#{mobileManagedBean.mobile.price}" /><br></br>				
+			</h:panelGroup>
+		</fieldset>
+		
+		<fieldset>
+			<legend>Search 1</legend>
+			Min: <h:inputText id="min" value="#{mobileManagedBean.min}" />
+			Max: <h:inputText id="max" value="#{mobileManagedBean.max}" />
+			<h:commandButton action="#{mobileManagedBean.searchPrice()}" value="Search">
+				<f:ajax execute="@form" render="result"></f:ajax>
+			</h:commandButton>|
+			<h:panelGroup id="result">
+			<ui:repeat var="m" value="#{mobileManagedBean.mobiles}">
+			<br></br>
+				Id: <h:outputText value="#{m.id}" /><br></br>
+				Name: <h:outputText value="#{m.name}" /><br></br>
+				Price: <h:outputText value="#{m.price}" /><br></br>
+				Photo:
+				<br></br>
+					<h:graphicImage library="images" name="#{m.photo}" width="60" />
+				<br></br>
+				=========================
+				<br></br>
+			</ui:repeat>							
+			</h:panelGroup>
+		</fieldset>
+		
+		<fieldset>
+			<legend>Search 2</legend>
+			<h:inputText id="keyword" value="#{mobileManagedBean.keyword}" />
+			<h:commandButton action="#{mobileManagedBean.searchName()}" value="Find">
+				<f:ajax execute="keyword" render="result1"></f:ajax>
+			</h:commandButton>|
+			<h:panelGroup id="result1">
+			<ui:repeat var="m" value="#{mobileManagedBean.mobiles}">
+			<br></br>
+				Id: <h:outputText value="#{m.id}" /><br></br>
+				Name: <h:outputText value="#{m.name}" /><br></br>
+				Price: <h:outputText value="#{mprice}" /><br></br>
+				Photo:
+				<br></br>
+					<h:graphicImage library="images" name="#{m.photo}" width="60" />
+				<br></br>
+				=========================
+				<br></br>
+			</ui:repeat>	
+			</h:panelGroup>
+		</fieldset>
+		<h:commandLink action="#{mobileManagedBean.index3()}" value="index3" />
+	</h:form>	
+</h:body>
+	
+</html>

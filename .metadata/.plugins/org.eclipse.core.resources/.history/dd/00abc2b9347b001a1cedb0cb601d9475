@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:ui="http://java.sun.com/jsf/facelets">
+
+<h:head>
+
+	<title>Index</title>
+
+</h:head>
+
+<h:body>
+	<h3>List Customer</h3>
+	<h:form>
+		<table border="1">
+			<tr>
+				<th>Order ID</th>
+				<th>Name</th>
+				<th>Date Creation</th>
+				<th>Status</th>
+				<th>Payments</th>
+				<th>Customer ID</th>
+				<th>Options</th>
+			</tr>
+			<ui:repeat var="item" value="#{orderManagedBean.orders}">
+				<tr>
+					<td>#{item.i}</td>
+					<td>#{item.name}</td>
+					<td><h:outputText value="#{item.datecreation}" >
+						<f:convertDateTime pattern="dd/MM/yyyy"/>
+					</h:outputText></td>
+					<td>#{item.status?'paid':'unpaid'}</td>
+					<td>#{item.payments}</td>
+					<td>#{item.customerId}</td>
+					<td><h:commandLink
+							action="#{orderManagedBean.delete(item, item.customerId)}"
+							onclick="confirm('Are you sure')" value="Delete" /></td>
+				</tr>
+			</ui:repeat>
+			<h:commandLink action="#{orderManagedBean.add(orderManagedBean.id)}"
+				value="Add New Order" />
+		</table>
+	</h:form>
+</h:body>
+
+</html>

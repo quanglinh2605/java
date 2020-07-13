@@ -1,0 +1,40 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>ChuyenbayServlet</servlet-name>
+  	<display-name>ChuyenbayServlet</display-name>
+  	<description></description>
+  	<servlet-class>servlet.ChuyenbayServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>VeServlet</servlet-name>
+  	<display-name>VeServlet</display-name>
+  	<description></description>
+  	<servlet-class>servlet.VeServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>AjaxServlet</servlet-name>
+  	<display-name>AjaxServlet</display-name>
+  	<description></description>
+  	<servlet-class>servlet.AjaxServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>ChuyenbayServlet</servlet-name>
+  	<url-pattern>/ChuyenbayServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>VeServlet</servlet-name>
+  	<url-pattern>/VeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>AjaxServlet</servlet-name>
+  	<url-pattern>/AjaxServlet</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+  	<welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>

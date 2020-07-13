@@ -1,0 +1,1 @@
+<jsp:forward page="student/index.html"></jsp:forward>

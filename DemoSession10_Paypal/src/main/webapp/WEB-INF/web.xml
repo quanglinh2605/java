@@ -1,0 +1,41 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+	<display-name>Archetype Created Web Application</display-name>
+	<context-param>
+
+		<param-name>authtoken</param-name>
+
+		<param-value>etUV1re7tnlGZdoVlW3vi-V5-H6sXzEE4HW95OhchzmtNl5BOVY3oxTuz04</param-value>
+
+	</context-param>
+
+	<context-param>
+
+		<param-name>posturl</param-name>
+
+		<param-value>https://www.sandbox.paypal.com/cgi-bin/webscr</param-value>
+
+	</context-param>
+
+	<context-param>
+
+		<param-name>business</param-name>
+
+		<param-value>sb-bbexb616999@business.example.com</param-value>
+
+	</context-param>
+
+	<context-param>
+
+		<param-name>returnurl</param-name>
+
+		<param-value>http://localhost:8080/DemoSession10_Paypal/cart?action=checkout</param-value>
+
+	</context-param>
+	<welcome-file-list>
+		<welcome-file>index.jsp</welcome-file>
+	</welcome-file-list>
+</web-app>

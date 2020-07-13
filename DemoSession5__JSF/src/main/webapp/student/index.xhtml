@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:ui="http://java.sun.com/jsf/facelets">
+
+<h:head>
+
+	<title>Index</title>
+
+</h:head>
+
+<h:body>	
+	<h3>Student List</h3>
+	<h:form prependId="false">
+		
+		Username: <h:inputText value="#{studentManagedBean.username}"></h:inputText><br></br>
+		Password: <h:inputText value="#{studentManagedBean.password}" /><br></br>
+		<h:commandButton action="#{studentManagedBean.login()}" value="Login" />
+		<br></br><br></br>
+		
+		<h:inputText value="#{studentManagedBean.keyword}" />
+		<h:commandButton action="#{studentManagedBean.search()}" value="Search" />
+		<br></br><br></br>	
+		
+		<h:commandLink action="#{studentManagedBean.add()}" value="Add" />
+		<h:dataTable var="student" value="#{studentManagedBean.students}" border="1">
+			<h:column>
+				<f:facet name="header">ID</f:facet>
+				#{student.id}
+			</h:column>
+			<h:column>
+				<f:facet name="header">Name</f:facet>
+				#{student.username}
+			</h:column>
+			<h:column>
+				<f:facet name="header">Fullname</f:facet>
+				#{student.fullname}
+			</h:column>
+			<h:column>
+				<f:facet name="header">Status</f:facet>
+				#{student.status?"Kich Hoat":"Khoa"}
+			</h:column>		
+			<h:column>
+				<f:facet name="header">Action</f:facet>
+				<h:commandLink action="#{studentManagedBean.edit(student)}" value="Edit" /> |
+				<h:commandLink action="#{studentManagedBean.delete(student)}" value="delete" onclick="return confirm('Are you sure')"/>
+			</h:column>
+		</h:dataTable>
+	</h:form>	
+</h:body>
+	
+</html>

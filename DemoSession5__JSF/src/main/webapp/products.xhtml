@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:ui="http://java.sun.com/jsf/facelets">
+
+<h:head>
+
+	<title>Demo Page</title>
+	<h:outputStylesheet library="css" name="style.css"></h:outputStylesheet>
+	<h:outputScript library="js" name="mylib.js"></h:outputScript>
+</h:head>
+
+<h:body>
+	<h:form>
+		Max Price: <h:inputText value="#{demoManagedBean.max}" />
+		<br/>Min Price <h:inputText value="#{demoManagedBean.min}" />
+		<h:commandButton action="#{demoManagedBean.searchbyPrice()}" value="Search" />
+		<h3>List Product</h3>
+		<h:dataTable border="1" var="p" value="#{demoManagedBean.products}">
+			<h:column>
+				<f:facet name="header">ID</f:facet>
+				#{p.id}
+			</h:column>
+			<h:column>
+				<f:facet name="header">Name</f:facet>
+				#{p.id}
+			</h:column>
+			<h:column>
+				<f:facet name="header">Photo</f:facet>
+				<h:graphicImage library="images" name="#{p.photo}" />
+			</h:column>
+			<h:column>
+				<f:facet name="header">Quantity</f:facet>
+				#{p.quantity}
+			</h:column>
+			<h:column>
+				<f:facet name="header">Price</f:facet>
+				#{p.price}
+			</h:column>
+			<h:column>
+				<f:facet name="header">Total</f:facet>
+				#{p.quantity*p.price}
+			</h:column>
+			<h:column>
+				<f:facet name="header">Action</f:facet>
+				<h:commandLink action="#{demoManagedBean.details(p)}"
+					value="Details" />
+			</h:column>
+		</h:dataTable>
+
+		<h3>Product List</h3>
+		<ui:repeat var="p" value="#{demoManagedBean.products}">
+			<h:graphicImage library="images" name="#{p.photo}" width="120" />
+			<br></br>
+		#{p.name}
+		<br></br>
+		#{p.price}
+		<br></br>
+		----------------
+		<br></br>
+		</ui:repeat>
+	</h:form>
+</h:body>
+
+</html>

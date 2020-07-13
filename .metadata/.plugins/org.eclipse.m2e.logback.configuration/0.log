@@ -1,0 +1,53 @@
+2020-04-10 20:28:51,860 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2020-04-10 20:33:38,894 [Worker-1: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: DemoSession6__JSF:DemoSession6__JSF:0.0.1-SNAPSHOT @ C:\eclipse\eclipse\workspaces\DemoSession6__JSF\pom.xml.
+2020-04-10 20:33:40,142 [Worker-1: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.glassfish.jaxb:jaxb-runtime:jar:2.2.11 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2020-04-10 20:33:40,499 [Worker-1: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact org.hibernate:hibernate-validator:jar:6.0.13.Final has been relocated to org.hibernate.validator:hibernate-validator:jar:6.0.13.Final
+2020-04-10 20:33:43,839 [Worker-1: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-04-10 20:33:43,873 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-04-10 20:33:43,879 [Worker-1: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-04-10 20:33:43,895 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\eclipse\eclipse\workspaces\DemoSession6__JSF\src\test\resources
+2020-04-10 20:33:46,368 [Worker-6: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: DemoSession6__JSF:DemoSession6__JSF:0.0.1-SNAPSHOT @ C:\eclipse\eclipse\workspaces\DemoSession6__JSF\pom.xml.
+2020-04-10 20:33:47,431 [Worker-6: Updating Maven Dependencies] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.glassfish.jaxb:jaxb-runtime:jar:2.2.11 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2020-04-10 20:33:47,694 [Worker-6: Updating Maven Dependencies] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact org.hibernate:hibernate-validator:jar:6.0.13.Final has been relocated to org.hibernate.validator:hibernate-validator:jar:6.0.13.Final
+2020-04-10 20:34:27,893 [Worker-0: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.glassfish.jaxb:jaxb-runtime:jar:2.2.11 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2020-04-10 20:34:28,092 [Worker-0: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact org.hibernate:hibernate-validator:jar:6.0.13.Final has been relocated to org.hibernate.validator:hibernate-validator:jar:6.0.13.Final
+2020-04-10 20:34:28,525 [Worker-0: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-04-10 20:34:28,538 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-04-10 20:34:28,541 [Worker-0: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-04-10 20:34:28,551 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\eclipse\eclipse\workspaces\DemoSession6__JSF\src\test\resources
+2020-04-10 20:51:16,701 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2020-04-10 20:58:15,953 [Worker-9: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: DemoSession6__JSF:DemoSession6__JSF:0.0.1-SNAPSHOT @ C:\eclipse\eclipse\workspaces\DemoSession6__JSF\pom.xml.
+2020-04-10 20:58:30,077 [Worker-9: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.glassfish.jaxb:jaxb-runtime:jar:2.2.11 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2020-04-10 20:58:31,763 [Worker-9: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact org.hibernate:hibernate-validator:jar:6.0.13.Final has been relocated to org.hibernate.validator:hibernate-validator:jar:6.0.13.Final
+2020-04-10 20:58:36,699 [Worker-9: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-04-10 20:58:36,800 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-04-10 20:58:36,810 [Worker-9: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-04-10 20:58:36,841 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\eclipse\eclipse\workspaces\DemoSession6__JSF\src\test\resources
+2020-04-10 20:58:51,223 [Worker-9: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.glassfish.jaxb:jaxb-runtime:jar:2.2.11 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2020-04-10 20:58:51,405 [Worker-9: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact org.hibernate:hibernate-validator:jar:6.0.13.Final has been relocated to org.hibernate.validator:hibernate-validator:jar:6.0.13.Final
+2020-04-10 20:58:59,184 [Worker-12: Updating workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.glassfish.jaxb:jaxb-runtime:jar:2.2.11 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2020-04-10 20:58:59,556 [Worker-12: Updating workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact org.hibernate:hibernate-validator:jar:6.0.13.Final has been relocated to org.hibernate.validator:hibernate-validator:jar:6.0.13.Final
+2020-04-10 20:59:02,653 [Worker-9: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-04-10 20:59:02,712 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-04-10 20:59:02,718 [Worker-9: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-04-10 20:59:02,736 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\eclipse\eclipse\workspaces\DemoSession6__JSF\src\test\resources
+2020-04-10 21:01:54,836 [Worker-13: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-04-10 21:01:54,966 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-04-10 21:01:54,969 [Worker-13: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-04-10 21:01:55,028 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\eclipse\eclipse\workspaces\DemoSession6__JSF\src\test\resources
+2020-04-10 21:04:05,151 [Worker-13: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-04-10 21:04:05,209 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-04-10 21:04:05,212 [Worker-13: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-04-10 21:04:05,226 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\eclipse\eclipse\workspaces\DemoSession6__JSF\src\test\resources
+2020-04-10 21:07:34,119 [Worker-27: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-04-10 21:07:34,585 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-04-10 21:07:34,588 [Worker-27: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-04-10 21:07:34,619 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\eclipse\eclipse\workspaces\DemoSession6__JSF\src\test\resources
+2020-04-10 21:08:12,918 [Worker-27: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-04-10 21:08:12,989 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-04-10 21:08:12,993 [Worker-27: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-04-10 21:08:13,059 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\eclipse\eclipse\workspaces\DemoSession6__JSF\src\test\resources
+2020-04-10 21:08:17,859 [Worker-29: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-04-10 21:08:17,945 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-04-10 21:08:17,963 [Worker-29: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-04-10 21:08:17,981 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\eclipse\eclipse\workspaces\DemoSession6__JSF\src\test\resources
