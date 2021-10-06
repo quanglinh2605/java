@@ -71,7 +71,7 @@
 
 			<artifactId>el-ri</artifactId>
 
-			<version>1.0</version>
+			<version>3.0.4</version>
 
 		</dependency>
 		<dependency>
